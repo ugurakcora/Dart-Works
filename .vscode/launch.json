@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "Dart",
-            "program": "lib/bolum-1/veri-degiskenleri.dart",
+            "program": "lib/bolum-2/if-else-elseif.dart",
             "request": "launch",
             "type": "dart"
         }
