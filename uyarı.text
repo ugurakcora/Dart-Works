@@ -1,0 +1,1 @@
+çalıştırmak istediğiniz dosyayı çalıştırmak için .vscode/launch.json dosyasında olan ("program") bölümünün yanında olan path'i çalıştırmak istediğiniz bölümün path'i ile değiştirmeniz gereklidir. 
