@@ -48,33 +48,66 @@ main(List<String> args) {
   print(test);
   // print(test+1);
 
-
   // int'a hexadecimal değerler (16'lık) atanabilir.
-  int hexadecimalSayi=0xAABBCC;
+  int hexadecimalSayi = 0xAABBCC;
   print(hexadecimalSayi);
 
-
   // matematiksel ifadeler
-  double exponentsSayi =1.42e5;
+  double exponentsSayi = 1.42e5;
   print(exponentsSayi);
 
   // var
   // var değişkeni ilk başta ne atanırsa onu kabul eder. eğer başta int değer alıp daha sonra double değer eklemek istersek hata verir
-  var sayi2=50;
+  var sayi2 = 50;
   print(sayi2);
   // sayi2=60.1;
 
-  // yukarda double ile belirttiğim not burada da geçerli. yani başta double değer girildiyse daha sonra int değer alabilir. 
-  var ondaliksayi=50.60;
+  // yukarda double ile belirttiğim not burada da geçerli. yani başta double değer girildiyse daha sonra int değer alabilir.
+  var ondaliksayi = 50.60;
   print(ondaliksayi);
-  ondaliksayi=50;
+  ondaliksayi = 50;
   print(ondaliksayi);
-
 
   // boolean (True - False)
   bool ergenMi = true;
   print(ergenMi);
 
-  var yetiskinMi=false;
+  var yetiskinMi = false;
   print(yetiskinMi);
+
+  // string
+  // string değerler tek tırnak ya da çift tırnak içerisinde yazılabilir.
+  String isim = "Uğur";
+  String soyisim = 'Akçora';
+  // içeri de tek tırnak kullanacaksanız dışarıda çift tırnak kullanmalısınız
+  String yazilimDili = "Dart'ı öğreniyoruz";
+
+  // aslında ikisi de aynı ama interpolation kullanmak daha doğrudur.
+  print(isim + " " + soyisim);
+  print("$isim $soyisim"); //interpolation
+
+  // string ifade içerisinde değişkenin değerini kullanmak için süslü parantez kullanmamız gerekli
+  print("ismimde olan karakter sayısı: ${isim.length}");
+  print("soyadımda olan karakter sayısı: ${soyisim.length}");
+
+  print("Ne yapıyoruz? : " + yazilimDili);
+
+  // interpolation
+  int sayi5 = 50;
+  double sayi6 = 52.65;
+  // bu ifade çalışır ama uygun değil
+  print("aklımdan tuttuğum birinci sayi: " +
+      sayi5.toString() +
+      "ikinci sayi: " +
+      sayi6.toString());
+
+  // interpolation ile olan kabul edilen litaratür de budur.
+  print("aklımdan geçen biirnci sayi: $sayi5 ikinci sayi: $sayi6");
+
+  int en = 10;
+  int boy = 12;
+  int hesap = en * boy;
+  print("eni $en, boyu $boy olan dikdörtgenin alanın $hesap 'dir.");
+  // ya da
+  print("eni $en, boyu $boy olan dikdörtgenin alanın ${en * boy} 'dir");
 }
