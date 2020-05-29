@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "Dart",
-            "program": "lib/bolum-2/if-else-elseif.dart",
+            "program": "lib/bolum-2/switch.dart",
             "request": "launch",
             "type": "dart"
         }
