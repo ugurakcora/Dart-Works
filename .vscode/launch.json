@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "Dart",
-            "program": "lib/bolum-1/hello-word.dart",
+            "program": "lib/bolum-1/veri-degiskenleri.dart",
             "request": "launch",
             "type": "dart"
         }
