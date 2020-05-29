@@ -110,4 +110,27 @@ main(List<String> args) {
   print("eni $en, boyu $boy olan dikdörtgenin alanın $hesap 'dir.");
   // ya da
   print("eni $en, boyu $boy olan dikdörtgenin alanın ${en * boy} 'dir");
+
+  // değiştirilemez alanlar
+  // Final ve Const
+  // Final ve Consttan sonra değişken olrak bool/num/int/string yazarsanız bellekte yer kaplar.
+
+  // final'a sadece bir kere değer ataması yapılır
+  final String sehirAdi = "İstanbul";
+  // sehirAdi = "Ankara";
+  print(sehirAdi);
+
+  // const'a sadece bir kere değer ataması yapılır
+  const PI = 3.14;
+  // PI=6.5;
+  print(PI);
+}
+
+// farkları sınıfları öğrendiğimizde karşılaşacağız.
+
+// instance değerler sadece final ile tanımlanır. eğer illa ki kullanmak istiyorsanız başına static yazmalısınız
+class Ogrenci {
+  final String ogrenciAdi = "Uğur";
+  // const numara=52;
+  static const numara = 52;
 }
