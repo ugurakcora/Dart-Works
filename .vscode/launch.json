@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "Dart",
-            "program": "lib/bolum-2/donguler.dart",
+            "program": "lib/bolum-2/ornekler.dart",
             "request": "launch",
             "type": "dart"
         }
