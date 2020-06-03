@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "Dart",
-            "program": "lib/bolum-3/fonksiyonKavrami.dart",
+            "program": "lib/bolum-3/opsiyonel-parametreler.dart",
             "request": "launch",
             "type": "dart"
         }
