@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "Dart",
-            "program": "lib/bolum-4/dinamik-list.dart",
+            "program": "lib/bolum-4/set-yapisi.dart",
             "request": "launch",
             "type": "dart"
         }
