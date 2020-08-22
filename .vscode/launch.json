@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "Dart",
-            "program": "lib/bolum-4/map.dart",
+            "program": "oop/ilk-ornek.dart",
             "request": "launch",
             "type": "dart"
         }
